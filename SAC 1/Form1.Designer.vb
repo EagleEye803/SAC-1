@@ -61,7 +61,7 @@ Partial Class Form1
         Me.btnPseudo.Name = "btnPseudo"
         Me.btnPseudo.Size = New System.Drawing.Size(65, 65)
         Me.btnPseudo.TabIndex = 6
-        Me.btnPseudo.Text = "Calculate People In Class"
+        Me.btnPseudo.Text = "Read CSV"
         Me.btnPseudo.UseVisualStyleBackColor = True
         '
         'lblPeople
