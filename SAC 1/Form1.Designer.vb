@@ -28,6 +28,7 @@ Partial Class Form1
         Me.btnPseudo = New System.Windows.Forms.Button()
         Me.lblPeople = New System.Windows.Forms.Label()
         Me.btnClear = New System.Windows.Forms.Button()
+        Me.btnForm2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnAdd
@@ -82,11 +83,21 @@ Partial Class Form1
         Me.btnClear.Text = "Clear CSV"
         Me.btnClear.UseVisualStyleBackColor = True
         '
+        'btnForm2
+        '
+        Me.btnForm2.Location = New System.Drawing.Point(495, 171)
+        Me.btnForm2.Name = "btnForm2"
+        Me.btnForm2.Size = New System.Drawing.Size(135, 76)
+        Me.btnForm2.TabIndex = 9
+        Me.btnForm2.Text = "INTERVIEW MODE"
+        Me.btnForm2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnForm2)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.lblPeople)
         Me.Controls.Add(Me.btnPseudo)
@@ -106,4 +117,5 @@ Partial Class Form1
     Friend WithEvents btnPseudo As Button
     Friend WithEvents lblPeople As Label
     Friend WithEvents btnClear As Button
+    Friend WithEvents btnForm2 As Button
 End Class

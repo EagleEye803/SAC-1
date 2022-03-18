@@ -58,7 +58,7 @@
     'READ CSV BUTTON - !!!SAC 2 CODE HERE!!!
     Private Sub btnPseudo_Click(sender As Object, e As EventArgs) Handles btnPseudo.Click
         'Change file location to "E:\repos\marks.csv" to read the program's file.
-        Using MyReader As New Microsoft.VisualBasic.FileIO.TextFieldParser("E:\repos\markdata.csv")
+        Using MyReader As New Microsoft.VisualBasic.FileIO.TextFieldParser("E:\repos\marks.csv")
 
             'DEFININE THE NECESSARY VARIABLES:
             Dim cellTicker As Integer = 0
@@ -119,5 +119,10 @@
         MsgBox("CSV cleared!")
         entry = ""
         lblPeople.Text = "The number of people in this class is: 0"
+    End Sub
+
+    Private Sub btnForm2_Click(sender As Object, e As EventArgs) Handles btnForm2.Click
+        Me.Hide()
+        Form2.Show()
     End Sub
 End Class
