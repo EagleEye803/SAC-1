@@ -4,12 +4,11 @@
     Dim englishMarks(0)
     Dim mathsMarks(0)
     Dim peMarks(0)
-
+    'Change file location to "E:\repos\marks.csv" to read the program's file.
+    Dim path As String = "E:\repos\marks.csv"
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         lblProcess.Text = "Loading File..."
-        'Change file location to "E:\repos\marks.csv" to read the program's file.
-        Using MyReader As New Microsoft.VisualBasic.FileIO.TextFieldParser("E:\repos\marks.csv")
-
+        Using MyReader As New Microsoft.VisualBasic.FileIO.TextFieldParser(path)
             'DEFINE THE NECESSARY VARIABLES:
             Dim cellTicker As Integer = 0
             Dim rowTicker As Integer = 0

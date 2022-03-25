@@ -1,13 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32112.339
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SAC 1", "SAC 1\SAC 1.vbproj", "{CD5E150F-EEEC-4367-A3F1-7177DE3ED17B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5FED4EA4-A7AA-428F-9BF8-092EDAA8BFBC}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		Class1.vb = Class1.vb
 	EndProjectSection
 EndProject
 Global
